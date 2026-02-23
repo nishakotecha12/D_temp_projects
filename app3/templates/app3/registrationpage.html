@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <!-- Outer big box -->
+    <fieldset>
+        <legend><b>Student Registration</b></legend>
+
+        <form>
+<pre>
+ Full Name:     <input type="text" name="name" placeholder="Enter your full name" size="40">
+
+ Email:         <input type="email" name="email" placeholder="example@email.com" size="40">
+
+ Password:      <input type="password" name="password" placeholder="Create a password" size="40">
+
+ Confirm Pass:  <input type="password" name="confirm" placeholder="Re-enter your password" size="40">
+
+ Phone No:      <input type="tel" name="phone" placeholder="10-digit mobile number" size="40">
+
+ Date of Birth: <input type="date" name="dob" size="40">
+
+ Gender:        <input type="radio" name="gender" value="Male"> Male  
+                <input type="radio" name="gender" value="Female"> Female  
+                <input type="radio" name="gender" value="Other"> Other
+
+City:          <select name="city">
+                     <option>Select City</option>
+                     <option>MUMABI</option>
+                     <option>PUNE</option>
+                     <option>GUJRAT</option>
+                     <option>NAGPUR</option>
+                     <option>Other</option>
+                 </select>
+
+Course:        <select name="course">
+                     <option>Select Course</option>
+                     <option>B.Tech</option>
+                     <option>MBA</option>
+                     <option>MCA</option>
+                     <option>BBA</option>
+                     <option>Other</option>
+                 </select>
+
+Address:       <textarea name="address" rows="3" cols="40" placeholder="Enter your address"></textarea>
+</pre>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </form>
+    </fieldset>
+</body>
+</html>
